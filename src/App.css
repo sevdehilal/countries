@@ -1,0 +1,70 @@
+/* App.css */
+
+/* Country List Styles */
+.country-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.country-card-list {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.country-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.country-card-list h2 {
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Country Details Styles */
+.country-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.country-card-details {
+  background-color: #fff;
+  border-radius: 0px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.country-flag {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd; /* Çizgi ekleniyor */
+  padding-bottom: 20px; /* Çizgi ile bayrak arasına boşluk ekleniyor */
+}
+
+.country-card-details h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.country-card-details p {
+  font-size: 18px;
+  margin: 10px 0;
+}
